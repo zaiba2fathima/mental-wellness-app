@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Wellness App</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Mood Journal</h1>
+    </header>
+    <main>
+        <section class="mood-tracker">
+            <h2>How are you feeling today?</h2>
+            <div class="mood-options">
+                <button class="mood-btn" data-mood="happy">😊 Happy</button>
+                <button class="mood-btn" data-mood="calm">😌 Calm</button>
+                <button class="mood-btn" data-mood="anxious">😬 Anxious</button>
+                <button class="mood-btn" data-mood="sad">😢 Sad</button>
+                <button class="mood-btn" data-mood="tired">😴 Tired</button>
+                <button class="mood-btn" data-mood="stressed">😖 Stressed</button>
+            </div>
+        </section>
+        <section class="journal-entry">
+            <h2>Journal Entry</h2>
+            <textarea id="journalText" placeholder="Write about your day..."></textarea>
+            <button id="saveBtn">Save Entry</button>
+        </section>
+        <section class="qa-chatbot">
+            <button id="askQuestionBtn">Ask a Question</button>
+            <div id="qaContainer" style="display: none;">
+                <input type="text" id="questionInput" placeholder="What's on your mind?">
+                <button id="submitQuestionBtn">Send</button>
+            </div>
+            <div id="qaResponse" style="display: none;">
+                <p id="qaResponseText"></p>
+            </div>
+        </section>
+        <section class="chatbot-response">
+            <h2 id="chatbotHeader"></h2>
+            <p id="chatbotMessage"></p>
+        </section>
+        <section class="mood-chart">
+            <h2>Your Mood Trends</h2>
+            <canvas id="moodChart"></canvas>
+        </section>
+        <section class="past-entries">
+            <div class="entries-header">
+                <h2>Past Entries</h2>
+                <button id="clearEntriesBtn">Clear All</button>
+            </div>
+            <div id="entriesContainer"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
