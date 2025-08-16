@@ -35,15 +35,15 @@ A simple web-based **Mental Wellness App** that allows users to:
 
 MENTAL_WELLNESS_APP/
 │
-├── backend/ # Server-side code
-│ ├── server.js # Main Express server
-│ ├── testGemini.js # AI testing script
-│ ├── .env # Environment variables (not uploaded)
+├── backend/ 
+│ ├── server.js 
+│ ├── testGemini.js 
+│ ├── .env 
 │ ├── package.json
-│ ├── node_modules/ # Dependencies (ignored in Git)
-│ └── venv/ # Virtual environment (ignored in Git)
+│ ├── node_modules/ 
+│ └── venv/ 
 │
-├── frontend/ # Client-side files
+├── frontend/ 
 │ ├── index.html
 │ ├── script.js
 │ ├── style.css
