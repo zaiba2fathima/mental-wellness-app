@@ -50,15 +50,23 @@ mental_wellness_app/
 │   └── style.css
 │
 └── README.md
+'''
+---
+
 ## 🚀 How It Works
+'''
 
 User enters mood in the Journal section → predefined supportive response.
 
 User chats with AI chatbot → response generated via Gemini API.
 
 All interactions are processed via backend API routes.
+'''
+
+---
 
 ## ⚙️ Installation & Setup
+'''
 1. **Clone the repository**
    ```bash
    git clone https://github.com/zaiba2fathima/mental-wellness-app.git
