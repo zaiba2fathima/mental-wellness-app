@@ -31,8 +31,9 @@ A simple web-based **Mental Wellness App** that allows users to:
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
+```bash
 mental_wellness_app/
 │
 ├── backend/
@@ -49,7 +50,6 @@ mental_wellness_app/
 │   └── style.css
 │
 └── README.md
-
 ## 🚀 How It Works
 
 User enters mood in the Journal section → predefined supportive response.
