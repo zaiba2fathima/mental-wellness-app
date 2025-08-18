@@ -34,6 +34,7 @@ A simple web-based **Mental Wellness App** that allows users to:
 ## 📁 Project Structure
 
 mental_wellness_app/
+│
 ├── backend/
 │   ├── server.js
 │   ├── testGemini.js
@@ -41,10 +42,13 @@ mental_wellness_app/
 │   ├── package.json
 │   ├── node_modules/
 │   └── venv/
-└── frontend/
-    ├── index.html
-    ├── script.js
-    └── style.css
+│
+├── frontend/
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+│
+└── README.md
 
 ## 🚀 How It Works
 
