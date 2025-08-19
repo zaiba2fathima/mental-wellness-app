@@ -66,7 +66,7 @@ All interactions are processed via backend API routes.
 ---
 
 ## ⚙️ Installation & Setup
-'''
+
 1. **Clone the repository**
    ```bash
    git clone https://github.com/zaiba2fathima/mental-wellness-app.git
