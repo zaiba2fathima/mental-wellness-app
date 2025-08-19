@@ -50,7 +50,7 @@ mental_wellness_app/
 │   └── style.css
 │
 └── README.md
-'''
+```
 ---
 
 ## 🚀 How It Works
