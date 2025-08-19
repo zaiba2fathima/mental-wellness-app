@@ -54,14 +54,14 @@ mental_wellness_app/
 ---
 
 ## 🚀 How It Works
-'''
+
 
 User enters mood in the Journal section → predefined supportive response.
 
 User chats with AI chatbot → response generated via Gemini API.
 
 All interactions are processed via backend API routes.
-'''
+
 
 ---
 
