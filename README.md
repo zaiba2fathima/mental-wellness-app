@@ -1,18 +1,22 @@
 # 🌿 Mental Wellness App
 
-A simple web-based **Mental Wellness App** that allows users to:
-- Write journal entries about their mood and receive encouraging, predefined responses.
-- Chat with an AI-powered chatbot for mental wellness support.
-- Access the app through a clean and responsive frontend.
+Mental Wellness App is a web-based platform designed to support users’ mental health and wellness. Users can track their mood, write journals, visualize their emotional trends over time, and seek guidance from an AI-powered Gemini chatbot to improve their mental well-being.
 
 ---
 
-## 📌 Features
-- **Mood Journal** – Users can type about their mood and get supportive feedback.
-- **AI Chatbot** – Ask wellness-related questions and get instant AI-generated answers.
-- **Predefined Wellness Responses** – For quick mood-based replies.
-- **Frontend + Backend** – HTML/CSS/JS for UI, Node.js/Express for backend.
-- **Secure API Keys** – Environment variables stored in `.env` file.
+## Features ✨
+
+Mood Selection: Users can select their current mood from a list of options.
+
+Journal Writing: Based on the selected mood, users can write journal entries which are saved securely.
+
+Mood Tracking & Graphs: View mood trends over time with interactive graphs for daily, monthly, and yearly tracking.
+
+Gemini Chatbot Assistance: Users can interact with a Gemini AI chatbot to get personalized suggestions to improve mental wellness based on their moods.
+
+Long-Term Tracking: Journal entries and mood data are stored and can be reviewed over months and years.
+
+Health Insights: Identify potential issues in mental health and receive advice or guidance from the Gemini chatbot.
 
 ---
 
@@ -29,6 +33,9 @@ A simple web-based **Mental Wellness App** that allows users to:
 **AI Integration:**
 - Gemini API (Google Generative AI)
 
+**Database:**
+- SQLite(for journaling and mood tracking)
+
 ---
 
 ## 📂 Project Structure
@@ -40,6 +47,7 @@ mental_wellness_app/
 │   ├── server.js
 │   ├── testGemini.js
 │   ├── .env
+|   |__ database.js
 │   ├── package.json
 │   ├── node_modules/
 │   └── venv/
@@ -56,11 +64,15 @@ mental_wellness_app/
 ## 🚀 How It Works
 
 
-User enters mood in the Journal section → predefined supportive response.
+Select Mood: Users select how they are feeling.
 
-User chats with AI chatbot → response generated via Gemini API.
+Write Journal: Based on mood, users write their journal entries.
 
-All interactions are processed via backend API routes.
+Save Entries: Entries are securely saved in SQLite and linked to the user.
+
+Visualize Trends: Users can view graphs of their mood trends over time.
+
+Consult Gemini Chatbot: Users can ask the chatbot for advice or suggestions to improve their mental wellness.
 
 
 ---
